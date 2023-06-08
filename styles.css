@@ -24,6 +24,8 @@ header {
   font-weight: 500;
 }
 
+/* Main header formatting */
+
 .header-top {
   display: flex;
   flex-direction: column;
@@ -47,4 +49,40 @@ header {
 
 .name-aka {
   font-size: x-large;
+}
+
+/* Navigation bar formatting */
+
+nav {
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat";
+  font-size: x-large;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: stretch;
+  justify-content: space-between;
+  margin: 0 10% 0 10%;
+  padding: 20px 0 20px 0;
+  border-bottom: 2px solid black;
+}
+
+/* Main section formatting */
+
+main {
+  margin: 20px 10% 20px 10%;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Footer formatting */
+
+footer {
+  margin: 0 10% 0 10%;
+  border-top: 1px solid black;
+  padding-top: 5px;
+  font-size: small;
 }
