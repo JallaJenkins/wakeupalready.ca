@@ -1,0 +1,50 @@
+:root {
+  --body-backround-color: #f9f9f9;
+  --menu-background-color: #b3b3b3;
+  --contacts-background-color: white;
+  /* --primary-text-color: #4d4d4d; */
+  --primary-text-color: #4d4d4d;
+  --contacts-text-color: #666a73;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--body-backround-color);
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+}
+
+header {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.header-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  /* border-bottom: 1px solid black; */
+}
+
+.header-top-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  list-style: none;
+  padding: 0 10px 0 10px;
+  border-right: 2px solid black;
+}
+
+.name-main {
+  font-size: xxx-large;
+}
+
+.name-aka {
+  font-size: x-large;
+}
