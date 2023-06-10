@@ -29,19 +29,24 @@ header {
 .header-top {
   position: relative;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
+  flex-direction: row;
+  align-items: top;
+  justify-content: space-between;
+  padding: 20px 0 20px 0;
+  margin: 0 10% 0 10%;
   /* border-bottom: 1px solid black; */
 }
 
 .header-top-list {
   display: flex;
+  position: relative;
   flex-direction: column;
   align-items: flex-end;
+  /* left: 10%; */
   list-style: none;
   padding: 0 10px 0 10px;
   border-right: 2px solid black;
+  border-left: 2px solid black;
 }
 
 .name-main {
@@ -53,17 +58,18 @@ header {
 }
 
 .header-top-info {
-  position: absolute;
-  right: 10%;
+  position: relative;
+  /* right: 10%; */
+  padding: 0 10px 0 10px;
   display: flex;
   flex-direction: column;
   align-items: end;
-  justify-content: space-between;
+  justify-content: flex-start;
   list-style: none;
   font-family: "Open Sans", sans-serif;
   z-index: 9;
   background-color: var(--body-backround-color);
-  padding-bottom: 2rem;
+  /* padding-bottom: 2rem; */
 }
 
 .email {
