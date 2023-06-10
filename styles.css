@@ -27,6 +27,7 @@ header {
 /* Main header formatting */
 
 .header-top {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -49,6 +50,32 @@ header {
 
 .name-aka {
   font-size: x-large;
+}
+
+.header-top-info {
+  position: absolute;
+  right: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: space-between;
+  list-style: none;
+  font-family: "Open Sans", sans-serif;
+  z-index: 9;
+  background-color: var(--body-backround-color);
+  padding-bottom: 2rem;
+}
+
+.email {
+  padding-bottom: 3rem;
+}
+
+.download-cv {
+  text-decoration: solid;
+  font-size: x-large;
+  padding: 10px 10px 10px 10px;
+  border: 2px solid black;
+  border-radius: 30px;
 }
 
 /* Navigation bar formatting */
