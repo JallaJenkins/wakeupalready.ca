@@ -44,9 +44,9 @@ header {
   align-items: flex-end;
   /* left: 10%; */
   list-style: none;
-  padding: 0 10px 0 10px;
+  padding: 0 10px 0 0;
   border-right: 2px solid black;
-  border-left: 2px solid black;
+  /* border-left: 2px solid black; */
 }
 
 .name-main {
@@ -72,20 +72,38 @@ header {
   /* padding-bottom: 2rem; */
 }
 
-.email {
+.email-list-item {
   padding-bottom: 3rem;
+}
+
+.email-link {
+  color: black;
+}
+
+.email-link:hover {
+  color: navy;
 }
 
 .download-cv {
   text-decoration: solid;
   font-size: large;
+  color: black;
   padding: 10px 20px 10px 20px;
   border: 2px solid black;
   border-radius: 30px;
 }
 
-/* Navigation bar formatting */
+.download-cv:hover {
+  color: navy;
+  background-color: ghostwhite;
+}
 
+.download-cv:active {
+  color: navy;
+  background-color: ghostwhite;
+}
+
+/* Navigation bar formatting */
 nav {
   display: flex;
   flex-direction: column;
