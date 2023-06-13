@@ -122,6 +122,19 @@ nav {
   border-bottom: 2px solid black;
 }
 
+.nav-item {
+  color: black;
+  text-decoration: solid;
+}
+
+.nav-item:hover {
+  color: navy;
+}
+
+.nav-item:active {
+  color: navy;
+}
+
 /* Main section formatting */
 
 main {
