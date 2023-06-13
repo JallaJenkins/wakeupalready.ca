@@ -38,7 +38,7 @@ const HEADER = `<ul class="header-top-list">
 </ul>`;
 
 const NAV = `<ul class="nav-list">
-<li><a class="nav-item" href="/index.html">About</a></li>
+<li><a class="nav-item" href="/">About</a></li>
 <li><a class="nav-item" href="/cv.html">CV</a></li>
 <li><a class="nav-item" href="/law.html">Law</a></li>
 <li><a class="nav-item" href="/coding.html">Coding</a></li>
@@ -57,14 +57,16 @@ const addHTML = (tag, html) => {
 
 addHTML("head", HEAD);
 addHTML("header", HEADER);
-// addHTML("nav", NAV);
+addHTML("nav", NAV);
 
 ///////////////////////////////////////
 // Adjust navbar based on current page
 
-// const highlightCurrentNavlink = () => {};
+const highlightNavlink = (anchor) => {};
 
-// const currentPage = window.location.pathname;
-// const currentAnchor = document.querySelector("a"["href"=currentPage]);
+const currentPage = window.location.pathname;
+const currentAnchor = document.querySelector(`a[href="${currentPage}"`);
+currentAnchor.setAttribute("class", "nav-item-current");
 
-// console.log(currentAnchor);
+console.log(currentPage);
+console.log(currentAnchor);
