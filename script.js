@@ -1,5 +1,8 @@
 "use strict";
 
+////////////////////////////////////////////
+// Boilerplate HTML data added to each page
+
 const HEAD = `<meta charset="utf-8" />
 <title>Jason Stuart Leslie - Online Resume</title>
 <link rel="stylesheet" href="styles.css" />
@@ -31,7 +34,7 @@ const HEADER = `<ul class="header-top-list">
   >
 </li>
 <li>
-  <a href="./docs/jason_leslie_cv.pdf" class="download-cv"
+  <a href="./docs/full_cv_jason_leslie_Jun_2023.pdf" class="download-cv"
     ><i class="fa-solid fa-file-pdf"></i> Download CV</a
   >
 </li>
@@ -48,7 +51,7 @@ const NAV = `<ul class="nav-list">
 </ul>`;
 
 ///////////////////////////////////////
-// Insert html common to each page
+// Insert HTML common to each page
 
 const addHTML = (tag, html) => {
   const addTag = document.querySelector(tag);
@@ -60,13 +63,10 @@ addHTML("header", HEADER);
 addHTML("nav", NAV);
 
 ///////////////////////////////////////
-// Adjust navbar based on current page
+// Format navbar based on current page
 
 const highlightNavlink = (anchor) => {};
 
 const currentPage = window.location.pathname;
 const currentAnchor = document.querySelector(`a[href="${currentPage}"`);
 currentAnchor.setAttribute("class", "nav-item-current");
-
-console.log(currentPage);
-console.log(currentAnchor);
