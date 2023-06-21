@@ -17,12 +17,7 @@ const HEAD = `<meta charset="utf-8" />
 <link
   href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
   rel="stylesheet"
-/>
-
-<script
-  src="https://kit.fontawesome.com/c6889c7ec5.js"
-  crossorigin="anonymous"
-></script>`;
+/>`;
 
 const HEADER = `<ul class="header-top-list">
 <li class="name-main">Jason Stuart Leslie</li>
@@ -35,7 +30,7 @@ const HEADER = `<ul class="header-top-list">
 </li>
 <li>
   <a href="./docs/full_cv_jason_leslie_Jun_2023.pdf" class="download-cv"
-    ><i class="fa-solid fa-file-pdf"></i> Download CV</a
+    ><i class="fa-regular fa-file-pdf"></i>&nbsp Download CV</a
   >
 </li>
 </ul>`;
@@ -68,5 +63,5 @@ addHTML("nav", NAV);
 const highlightNavlink = (anchor) => {};
 
 const currentPage = window.location.pathname;
-const currentAnchor = document.querySelector(`a[href="${currentPage}"`);
+const currentAnchor = document.querySelector(`a[href="${currentPage}"]`);
 currentAnchor.setAttribute("class", "nav-item-current");
