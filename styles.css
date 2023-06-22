@@ -27,6 +27,15 @@ header {
   font-weight: 500;
 }
 
+.link {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+.link:hover {
+  color: var(--active-text-color);
+}
+
 /* Main header formatting */
 
 .header-top {
@@ -48,7 +57,7 @@ header {
   /* left: 10%; */
   list-style: none;
   padding: 0 10px 0 0;
-  border-right: 2px solid var(--primary-border-color);
+  /* border-right: 2px solid var(--primary-border-color); */
   /* border-left: 2px solid black; */
 }
 
@@ -76,7 +85,7 @@ header {
 }
 
 .email-list-item {
-  padding-bottom: 3rem;
+  padding-bottom: 2rem;
 }
 
 .email-link {
@@ -182,8 +191,16 @@ main {
 .index-article {
   max-width: 100%;
   display: grid;
-  grid-template: "aside main-text main-text";
+  grid-template: "aside main-text main-text main-text";
   gap: 25px;
+}
+
+.index-looking-for-work {
+  font-weight: 600;
+}
+
+.index-project-list {
+  list-style: inside;
 }
 
 /* Footer formatting */
