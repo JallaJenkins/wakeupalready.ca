@@ -165,6 +165,27 @@ main {
   font-family: "Open Sans", sans-serif;
 }
 
+/* Index page formatting */
+
+.index-aside {
+  grid-area: aside;
+}
+
+.index-aside picture img {
+  max-width: 100%;
+}
+
+.index-main-text {
+  grid-area: main-text;
+}
+
+.index-article {
+  max-width: 100%;
+  display: grid;
+  grid-template: "aside main-text main-text";
+  gap: 25px;
+}
+
 /* Footer formatting */
 
 footer {
