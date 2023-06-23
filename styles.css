@@ -200,7 +200,7 @@ main {
 }
 
 .index-project-list {
-  list-style: inside;
+  padding-left: 15px;
 }
 
 /* Footer formatting */
