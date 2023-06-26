@@ -29,7 +29,7 @@ header {
 
 .link {
   color: var(--primary-text-color);
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 
 .link:hover {
@@ -199,8 +199,9 @@ main {
   font-weight: 600;
 }
 
-.index-project-list {
-  padding-left: 15px;
+.index-project-list-item {
+  padding-left: 10px;
+  margin-bottom: 1rem;
 }
 
 /* Footer formatting */
