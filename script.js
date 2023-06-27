@@ -37,7 +37,7 @@ const HEADER = `<ul class="header-top-list">
 
 const NAV = `<ul class="nav-list">
 <li><a class="nav-item" href="/">About</a></li>
-<li><a class="nav-item" href="/cv.html">CV</a></li>
+<!-- <li><a class="nav-item" href="/cv.html">CV</a></li> -->
 <li><a class="nav-item" href="/law.html">Law</a></li>
 <li><a class="nav-item" href="/coding.html">Coding</a></li>
 <li><a class="nav-item" href="/meditation.html">Meditation</a></li>

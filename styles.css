@@ -204,6 +204,27 @@ main {
   margin-bottom: 1rem;
 }
 
+/* Law page formatting */
+
+.law-aside {
+  grid-area: aside;
+}
+
+.law-aside figure img {
+  max-width: 100%;
+}
+
+.law-main-text {
+  grid-area: main-text;
+}
+
+.law-article {
+  max-width: 100%;
+  display: grid;
+  grid-template: "main-text main-text main-text aside";
+  gap: 25px;
+}
+
 /* Footer formatting */
 
 footer {
