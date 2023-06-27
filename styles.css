@@ -16,6 +16,8 @@
   box-sizing: border-box;
 }
 
+/* General formatting */
+
 body {
   background-color: var(--body-backround-color);
   font-family: "Nunito Sans", sans-serif;
@@ -27,12 +29,18 @@ header {
   font-weight: 500;
 }
 
-.link {
+.link,
+.link-icon {
   color: var(--primary-text-color);
   /* text-decoration: none; */
 }
 
-.link:hover {
+.link-icon {
+  padding-left: 2rem;
+}
+
+.link:hover,
+.link-icon:hover {
   color: var(--active-text-color);
 }
 
@@ -57,12 +65,18 @@ header {
   /* left: 10%; */
   list-style: none;
   padding: 0 10px 0 0;
-  /* border-right: 2px solid var(--primary-border-color); */
+  border-right: 2px solid var(--primary-border-color);
   /* border-left: 2px solid black; */
 }
 
 .name-main {
   font-size: xxx-large;
+}
+
+.name-icon-list {
+  display: flex;
+  flex-direction: row;
+  padding-top: 1rem;
 }
 
 .name-aka {
@@ -192,7 +206,7 @@ main {
   max-width: 100%;
   display: grid;
   grid-template: "aside main-text main-text main-text";
-  gap: 25px;
+  gap: 3rem;
 }
 
 .index-looking-for-work {
@@ -221,8 +235,8 @@ main {
 .law-article {
   max-width: 100%;
   display: grid;
-  grid-template: "main-text main-text main-text aside";
-  gap: 25px;
+  grid-template: "main-text main-text main-text main-text aside";
+  gap: 3rem;
 }
 
 /* Footer formatting */
