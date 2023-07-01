@@ -1,7 +1,10 @@
 :root {
   --body-backround-color: #f9f9f9;
+  /* --text-background-color: #b9bed48f; */
+  --text-background-color: #d3dbe48f;
   --primary-text-color: black;
   --primary-border-color: rgb(28, 28, 28);
+  --secondary-border-color: rgb(52, 52, 150);
   --active-text-color: navy;
   --active-background-color: ghostwhite;
   /* --menu-background-color: #b3b3b3; */
@@ -27,6 +30,13 @@ body {
 header {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+}
+
+.text-section {
+  background-color: var(--text-background-color);
+  padding: 5% 5% 5% 5%;
+  border: 1px solid var(--secondary-border-color);
+  border-radius: 20px;
 }
 
 .link,
@@ -202,14 +212,21 @@ main {
   grid-area: main-text;
 }
 
+.text-section-looking-for-work {
+  background-color: var(--text-background-color);
+  padding: 5% 5% 5% 5%;
+  border: 1px solid var(--secondary-border-color);
+  border-radius: 20px;
+}
+
 .index-article {
   max-width: 100%;
   display: grid;
   grid-template: "aside main-text main-text main-text";
-  gap: 3rem;
+  gap: 4rem;
 }
 
-.index-looking-for-work {
+.index-text-looking-for-work {
   font-weight: 600;
 }
 
@@ -235,7 +252,7 @@ main {
 .law-article {
   max-width: 100%;
   display: grid;
-  grid-template: "main-text main-text main-text main-text aside";
+  grid-template: "main-text main-text main-text main-text main-text aside";
   gap: 3rem;
 }
 
