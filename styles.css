@@ -1,7 +1,8 @@
 :root {
-  --body-backround-color: #f9f9f9;
-  /* --text-background-color: #b9bed48f; */
-  --text-background-color: #d3dbe48f;
+  /* --body-backround-color: #f9f9f9; */
+  --body-backround-color: #eaeef48f;
+  /* --text-background-color: #d3dbe48f; */
+  --text-background-color: #f9f9f9;
   --primary-text-color: black;
   --primary-border-color: rgb(28, 28, 28);
   --secondary-border-color: rgb(52, 52, 150);
@@ -34,9 +35,14 @@ header {
 
 .text-section {
   background-color: var(--text-background-color);
-  padding: 5% 5% 5% 5%;
+  padding: 3rem 3rem 3rem 3rem;
   border: 1px solid var(--secondary-border-color);
   border-radius: 20px;
+  /* margin-bottom: 3rem; */
+}
+
+.internal-break {
+  margin-top: 2rem;
 }
 
 .link,
@@ -52,6 +58,11 @@ header {
 .link:hover,
 .link-icon:hover {
   color: var(--active-text-color);
+}
+
+.project-list-item {
+  padding-left: 10px;
+  margin-bottom: 1rem;
 }
 
 /* Main header formatting */
@@ -104,7 +115,7 @@ header {
   list-style: none;
   font-family: "Open Sans", sans-serif;
   z-index: 9;
-  background-color: var(--body-backround-color);
+  /* background-color: var(--body-backround-color); */
   /* padding-bottom: 2rem; */
 }
 
@@ -153,7 +164,7 @@ nav {
   list-style: none;
   align-items: stretch;
   justify-content: space-between;
-  margin: 0 10% 0 10%;
+  margin: 0 10% 2% 10%;
   padding: 20px 0 20px 0;
   border-bottom: 2px solid var(--primary-border-color);
 }
@@ -194,7 +205,7 @@ nav {
 /* Main section formatting */
 
 main {
-  margin: 20px 10% 20px 10%;
+  margin: 20px 10% 3rem 10%;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -214,25 +225,21 @@ main {
 
 .text-section-looking-for-work {
   background-color: var(--text-background-color);
-  padding: 5% 5% 5% 5%;
+  padding: 3rem 3rem 3rem 3rem;
   border: 1px solid var(--secondary-border-color);
   border-radius: 20px;
+  /* margin-bottom: 3rem; */
 }
 
 .index-article {
   max-width: 100%;
   display: grid;
   grid-template: "aside main-text main-text main-text";
-  gap: 4rem;
+  gap: 3rem;
 }
 
 .index-text-looking-for-work {
   font-weight: 600;
-}
-
-.index-project-list-item {
-  padding-left: 10px;
-  margin-bottom: 1rem;
 }
 
 /* Law page formatting */
@@ -249,10 +256,16 @@ main {
   grid-area: main-text;
 }
 
+.law-career-highlights {
+  grid-area: highlights;
+}
+
 .law-article {
   max-width: 100%;
   display: grid;
-  grid-template: "main-text main-text main-text main-text main-text aside";
+  grid-template:
+    "main-text main-text main-text main-text main-text aside"
+    "highlights highlights highlights highlights highlights highlights";
   gap: 3rem;
 }
 
