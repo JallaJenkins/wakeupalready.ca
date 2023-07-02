@@ -269,6 +269,50 @@ main {
   gap: 3rem;
 }
 
+/* Coding page formatting */
+
+.coding-aside {
+  grid-area: aside;
+}
+
+.coding-figure {
+  max-width: 100%;
+}
+
+.coding-image {
+  max-width: 100%;
+}
+
+.coding-main-text {
+  grid-area: main-text;
+}
+
+.coding-projects {
+  grid-area: projects;
+}
+
+.coding-article {
+  max-width: 100%;
+  display: grid;
+  grid-template:
+    "aside aside aside"
+    "main-text main-text projects";
+  gap: 3rem;
+}
+
+.coding-figcaption {
+  font-size: smaller;
+}
+
+.coding-project-list-item {
+  padding-left: 10px;
+}
+
+.coding-project-sublist {
+  list-style: none;
+  padding-left: 1rem;
+}
+
 /* Footer formatting */
 
 footer {
