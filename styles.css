@@ -279,11 +279,11 @@ main {
   grid-area: aside;
 }
 
-.coding-figure {
+/* .coding-figure {
   max-width: 100%;
-}
+} */
 
-.coding-image {
+.coding-aside figure img {
   max-width: 100%;
 }
 
@@ -291,8 +291,16 @@ main {
   grid-area: main-text;
 }
 
+.coding-main-text section {
+  height: 100%;
+}
+
 .coding-projects {
   grid-area: projects;
+}
+
+.coding-projects section {
+  height: 100%;
 }
 
 .coding-article {
@@ -315,6 +323,37 @@ main {
 .coding-project-sublist {
   list-style: none;
   padding-left: 1rem;
+}
+
+/* Meditation page formatting */
+
+.meditation-aside {
+  grid-area: aside;
+}
+
+.meditation-aside figure img {
+  max-width: 100%;
+}
+
+.meditation-aside figure figcaption {
+  font-size: smaller;
+}
+
+.meditation-main-text {
+  grid-area: main-text;
+}
+
+.meditation-teaching {
+  grid-area: teaching;
+}
+
+.meditation-article {
+  max-width: 100%;
+  display: grid;
+  grid-template:
+    "aside main-text main-text main-text"
+    "aside teaching teaching teaching";
+  gap: 3rem;
 }
 
 /* Footer formatting */
