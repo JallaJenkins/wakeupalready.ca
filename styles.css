@@ -358,8 +358,45 @@ main {
 
 /* Music page formatting */
 
+.music-main-text {
+  grid-area: main-text;
+}
+
+.music-aside {
+  grid-area: aside;
+}
+
 .music-aside figure img {
   max-width: 100%;
+}
+
+.music-aside figure figcaption {
+  font-size: smaller;
+}
+
+.music-projects {
+  grid-area: projects;
+}
+
+.music-projects section {
+  text-align: right;
+}
+
+.album-cover {
+  width: 75%;
+}
+
+.music-inline-icon {
+  margin-right: 1rem;
+}
+
+.music-article {
+  max-width: 100%;
+  display: grid;
+  grid-template:
+    "main-text main-text main-text"
+    "aside aside projects";
+  gap: 3rem;
 }
 
 /* Footer formatting */
