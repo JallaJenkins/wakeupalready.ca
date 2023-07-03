@@ -135,6 +135,7 @@ header {
   text-decoration: solid;
   font-size: large;
   color: var(--primary-text-color);
+  background-color: var(--text-background-color);
   padding: 10px 20px 10px 20px;
   border: 2px solid var(--primary-border-color);
   border-radius: 30px;

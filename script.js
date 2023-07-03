@@ -22,9 +22,9 @@ const HEAD = `<meta charset="utf-8" />
 const HEADER = `<ul class="header-top-list">
 <li class="name-main">Jason Stuart Leslie</li>
 <li class="name-icon-list">
-          <a class="link-icon" href="https://www.linkedin.com/in/jasonsleslie/"> <i class="fa-brands fa-linkedin-in fa-xl"></i></a>
-          <a class="link-icon" href="https://github.com/JallaJenkins"> <i class="fa-brands fa-github fa-xl"></i></a>
-          <a class="link-icon" href="https://soundcloud.com/jasonsleslie"><i class="fa-brands fa-soundcloud fa-xl"></i></a>
+          <a class="link-icon" target="_blank" href="https://www.linkedin.com/in/jasonsleslie/"> <i class="fa-brands fa-linkedin-in fa-xl"></i></a>
+          <a class="link-icon" target="_blank" href="https://github.com/JallaJenkins"> <i class="fa-brands fa-github fa-xl"></i></a>
+          <a class="link-icon" target="_blank" href="https://soundcloud.com/jasonsleslie"><i class="fa-brands fa-soundcloud fa-xl"></i></a>
         </li>
 </ul>
 <ul class="header-top-info">
