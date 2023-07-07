@@ -426,7 +426,7 @@ footer {
   }
 
   .name-main {
-    font-size: x-large;
+    font-size: xxx-large;
   }
 
   .name-icon-list {
@@ -443,6 +443,14 @@ footer {
     text-align: center;
   }
 
+  .email-list-item {
+    font-size: x-large;
+  }
+
+  .download-cv {
+    font-size: x-large;
+  }
+
   .nav-list {
     flex-direction: column;
     align-items: center;
@@ -450,6 +458,7 @@ footer {
 
   .nav-list-item {
     padding-bottom: 1rem;
+    font-size: xxx-large;
   }
 
   main {
