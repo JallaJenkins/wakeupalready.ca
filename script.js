@@ -48,7 +48,7 @@ const NAV = `<ul class="nav-list">
 <li class="nav-list-item"><a class="nav-item" href="/coding.html">Coding</a></li>
 <li class="nav-list-item"><a class="nav-item" href="/meditation.html">Meditation</a></li>
 <li class="nav-list-item"><a class="nav-item" href="/music.html">Music</a></li>
-<li class="nav-list-item"><a class="nav-item" href="/writing.html">Writing</a></li>
+<!-- <li class="nav-list-item"><a class="nav-item" href="/writing.html">Writing</a></li> -->
 </ul>`;
 
 ///////////////////////////////////////
