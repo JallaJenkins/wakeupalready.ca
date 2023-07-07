@@ -42,13 +42,13 @@ const HEADER = `<ul class="header-top-list">
 </ul>`;
 
 const NAV = `<ul class="nav-list">
-<li><a class="nav-item" href="/">About</a></li>
+<li class="nav-list-item"><a class="nav-item" href="/">About</a></li>
 <!-- <li><a class="nav-item" href="/cv.html">CV</a></li> -->
-<li><a class="nav-item" href="/law.html">Law</a></li>
-<li><a class="nav-item" href="/coding.html">Coding</a></li>
-<li><a class="nav-item" href="/meditation.html">Meditation</a></li>
-<li><a class="nav-item" href="/music.html">Music</a></li>
-<li><a class="nav-item" href="/writing.html">Writing</a></li>
+<li class="nav-list-item"><a class="nav-item" href="/law.html">Law</a></li>
+<li class="nav-list-item"><a class="nav-item" href="/coding.html">Coding</a></li>
+<li class="nav-list-item"><a class="nav-item" href="/meditation.html">Meditation</a></li>
+<li class="nav-list-item"><a class="nav-item" href="/music.html">Music</a></li>
+<li class="nav-list-item"><a class="nav-item" href="/writing.html">Writing</a></li>
 </ul>`;
 
 ///////////////////////////////////////
