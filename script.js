@@ -30,8 +30,8 @@ const HEADER = `<ul class="header-top-list">
 <ul class="header-top-info">
 <li class="email-list-item">
   <i class="fa-solid fa-envelope fa-lg"></i> &nbsp;
-  <a class="email-link" href="mailto:wakeupalready@gmail.com"
-    >wakeupalready at gmail dot com</a
+  <a class="email-link" href="mailto:jasonstuartleslie@gmail.com"
+    >jasonstuartleslie at gmail dot com</a
   >
 </li>
 <li>
