@@ -35,7 +35,7 @@ const HEADER = `<ul class="header-top-list">
   >
 </li>
 <li>
-  <a href="./docs/full_cv_jason_leslie_Jun_2023_2.pdf" class="download-cv"
+  <a href="./docs/full_cv_jason_leslie.pdf" class="download-cv"
     ><i class="fa-regular fa-file-pdf"></i>&nbsp Download CV</a
   >
 </li>
